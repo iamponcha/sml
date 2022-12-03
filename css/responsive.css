@@ -85,20 +85,20 @@
     margin-top: 10px;
   }
 
-  .team_section .owl-carousel .owl-nav .owl-prev,
-  .team_section .owl-carousel .owl-nav .owl-next {
+  .gallery_section .owl-carousel .owl-nav .owl-prev,
+  .gallery_section .owl-carousel .owl-nav .owl-next {
     top: 100%;
   }
 
-  .team_section .owl-carousel .owl-nav .owl-prev {
+  .gallery_section .owl-carousel .owl-nav .owl-prev {
     left: 0;
   }
 
-  .team_section .owl-carousel .owl-nav .owl-next {
+  .gallery_section .owl-carousel .owl-nav .owl-next {
     right: 0;
   }
 
-  .team_section {
+  .gallery_section {
     padding-bottom: 75px;
   }
 
