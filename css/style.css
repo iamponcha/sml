@@ -318,7 +318,7 @@ a:focus {
 /*end header section*/
 /* slider section */
 .slider_section {
-  color: #ffffff;
+  color: #000000;
 }
 
 .slider_section .container {
@@ -333,7 +333,7 @@ a:focus {
 }
 
 .slider_section .detail-box h1 {
-  color: #000000;
+  color: #ffffff;
   font-weight: bold;
   font-size: 4rem;
 }
@@ -360,7 +360,7 @@ a:focus {
 }
 
 .slider_section .detail-box .btn-box a span {
-  color: #ffffff;
+  color: #000000;
   margin-right: 5px;
   font-size: 18px;
 }
