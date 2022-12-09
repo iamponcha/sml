@@ -212,7 +212,7 @@ a:focus {
 }
 
 .User_option a {
-  color: #ffffff;
+  color: #000000;
 }
 
 .custom_menu-btn {
@@ -333,7 +333,7 @@ a:focus {
 }
 
 .slider_section .detail-box h1 {
-  color: #30f7fe;
+  color: #000000;
   font-weight: bold;
   font-size: 4rem;
 }
@@ -384,7 +384,7 @@ a:focus {
 
 .slider_section .carousel-control-prev,
 .slider_section .carousel-control-next {
-  opacity: 1;
+  opacity: 0;
   z-index: 2;
 }
 
