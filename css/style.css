@@ -160,8 +160,8 @@ a:focus {
 }
 
 .navbar-brand img {
-  width: 35px;
-  margin-right: 10px;
+  width: 65px;
+  margin-right: 5px;
 }
 
 .navbar-brand span {
@@ -486,7 +486,7 @@ a:focus {
 .service_section .btn-box a {
   display: inline-block;
   padding: 8px 35px;
-  background-color: #582fd7;
+  background-color: #eb9630;
   color: #ffffff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -568,7 +568,7 @@ a:focus {
 }
 
 .team_section {
-  background-color: #f7f7f7;
+  background-color: #cbcacac4;
 }
 
 .team_section .heading_container {
@@ -781,6 +781,115 @@ a:focus {
   display: block;
 }
 
+.certifications_section {
+  background: rgb(252,176,69);
+  background: linear-gradient(180deg, rgba(252,176,69,0.5158438375350141) 0%, rgba(255,255,255,1) 50%, rgba(42,240,31,0.4962359943977591) 100%);
+
+}
+
+.certifications_section .heading_container {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 15px;
+}
+
+.certifications_section .heading_container h2::before {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.certifications_section .box {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.certifications_section .box .img-box {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 30px;
+  padding: 35px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.certifications_section .box .img-box img {
+  width: 75%;
+}
+
+.certifications_section .box .detail-box {
+  margin-top: 15px;
+}
+
+.certifications_section .box .detail-box h6 {
+  color: #582fd7;
+}
+
+.certifications_section .carousel-wrap {
+  margin: 0 auto;
+  padding: 0 5%;
+  position: relative;
+}
+
+.certifications_section .owl-nav > div {
+  margin-top: -26px;
+  position: absolute;
+  top: 50%;
+  color: #cdcbcd;
+}
+
+.certifications_section .owl-carousel .owl-nav .owl-prev,
+.certifications_section .owl-carousel .owl-nav .owl-next {
+  width: 50px;
+  height: 50px;
+  background-color: #dad9d7;
+  background-size: 9px;
+  background-position: center;
+  border-radius: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  outline: none;
+}
+
+.certifications_section .owl-carousel .owl-nav .owl-prev:hover,
+.certifications_section .owl-carousel .owl-nav .owl-next:hover {
+  background-color: #582fd7;
+}
+
+.certifications_section .owl-carousel .owl-nav .owl-prev {
+  background-image: url(../images/prev.png);
+  left: -10%;
+}
+
+.certifications_section .owl-carousel .owl-nav .owl-prev:hover {
+  background-image: url(../images/prev-white.png);
+}
+
+.certifications_section .owl-carousel .owl-nav .owl-next {
+  right: -10%;
+  background-image: url(../images/next.png);
+}
+
+.certifications_section .owl-carousel .owl-nav .owl-next:hover {
+  background-image: url(../images/next-white.png);
+}
+
+.certifications_section .owl-carousel .owl-dots.disabled,
+.certifications_section .owl-carousel .owl-nav.disabled {
+  display: block;
+}
+
 .client_section {
   padding-bottom: 150px;
 }
@@ -899,7 +1008,7 @@ a:focus {
 
 .contact_section {
   position: relative;
-  background-color: #582fd7;
+  background-color: #e6900f;
   color: #ffffff;
 }
 
