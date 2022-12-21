@@ -18,13 +18,13 @@
         <loc>https://sonicmetlab.com/services</loc>
         <lastmod>2022-12-21</lastmod>
         <changefreq>always</changefreq>
-        <priority>0.5</priority>
+        <priority>0.9</priority>
     </url>
     <url>
         <loc>https://sonicmetlab.com/clients</loc>
         <lastmod>2022-12-21</lastmod>
         <changefreq>always</changefreq>
-        <priority>0.5</priority>
+        <priority>0.8</priority>
     </url>
     <url>
         <loc>https://sonicmetlab.com/gallery</loc>
@@ -36,7 +36,7 @@
         <loc>https://sonicmetlab.com/contact</loc>
         <lastmod>2022-12-21</lastmod>
         <changefreq>always</changefreq>
-        <priority>0.5</priority>
+        <priority>0.9</priority>
     </url>
     <url>
         <loc>https://sonicmetlab.com/about</loc>
